@@ -153,3 +153,103 @@ footer img {
     margin-left: 2rem;
     margin-right: 1rem;
 }
+
+/********** MEDIA QUERIES **********/
+
+@media only screen and (max-width: 1024px) {
+
+    .container {
+        max-width: 100%;
+    }
+
+    header {
+        padding-top: 0;
+        height: 22rem;
+    }
+
+    nav {
+        padding-top: 1.5rem;
+    }
+
+    .banner {
+        margin-top: 5rem;
+        margin-right: 2rem;
+        padding: 0.75rem 4rem;
+    }
+
+    .banner h1 {
+        font-size: 1.33rem;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+
+    header {
+        height: 17rem;
+        background-position: 20%;
+    }
+
+    .logo>span {
+        display: none;
+    }
+
+    .menu .desk-view {
+        display: none;
+    }
+
+    .menu .mobile-view {
+        display: block;;
+    }
+    
+    .banner {
+        margin-top: 9rem;
+        margin-right: 0;
+        padding: 0 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner h1 {
+        font-size: 1rem;
+    }
+
+    .section-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 3.77rem;
+    }
+
+    .service {
+        margin-bottom: 1.54rem;
+    }
+
+    .service div {
+        font-size: 0.77rem;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .info p {
+        font-size: 0.77rem;
+        padding: 1rem 0 4rem 1.25rem;
+    }
+
+    .info-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer div {
+        display: none;
+    }
+
+    footer img {
+        margin: 0 auto;
+    }
+
+}
